@@ -3,5 +3,13 @@
         "editor.defaultFormatter": "ms-vscode.cpptools",
         "editor.tabSize": 4,
         "editor.formatOnSave": true
-    }
+    },
+     "C_Cpp.intelliSenseEngine": "Disabled",
+        
+    // "clangd.path": "/path/to/your/clangd",
+    "clangd.arguments": ["-log=verbose", 
+                         "-pretty", 
+                         "--background-index", 
+                         //"--query-driver=/bin/arm-buildroot-linux-gnueabihf-g++", //for cross compile usage
+                         "--compile-commands-dir=C:\\Users/lebesgauu/wx_cmake_template/build/subprojects/Build/wx_cmake_template_core"]
 }

@@ -4,6 +4,7 @@ project(wx_cmake_template_core LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # hack for buggy CMake's FindwxWidgets script
 if(DEFINED ENV_WX_CONFIG)
